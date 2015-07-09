@@ -19,7 +19,7 @@ namespace BusReservationWebServiceWebApplication
     public class BusReservationService : System.Web.Services.WebService
     {
 
-        SqlConnection con = new SqlConnection(@"Data Source=TOPS74\SQLEXPRESS;Initial Catalog=project;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Server=0398993d-d6ad-43e4-afca-a4d000bb6e21.sqlserver.sequelizer.com;Database=db0398993dd6ad43e4afcaa4d000bb6e21;User ID=czsmvzeuseqqadhz;Password=8Q5qU2s7dpQRMwJQc6e6M4SpFv6aG6gNHP6okiUnMTyHnAjvJ5Ldetrd6PSx5sxg;");
         SqlCommand cmd;
         SqlDataAdapter da;
         DataSet ds;
