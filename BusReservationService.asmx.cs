@@ -25,10 +25,7 @@ namespace BusReservationWebServiceWebApplication
         DataSet ds;
 
 
-        //[WebMethod]
-        //public string HelloWorld() {
-        //    return "Hello World";
-        //}
+      
 
         [WebMethod]
         public DataSet CheckUserLogin(string UserName, string Password)
